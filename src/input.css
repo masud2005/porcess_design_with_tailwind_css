@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.card{
+    @apply flex flex-col md:flex-row gap-5 md:gap-10 bg-white md:bg-transparent p-4 m-4 md:m-2 rounded-md shadow shadow-slate-600 md:shadow-none
+}
+.img_area{
+    @apply flex justify-center items-center
+}
+.img{
+    @apply w-[120px] h-[120px] bg-white flex p-7 rounded-xl border-2 border-blue-500
+}
+.content_area{
+    @apply bg-white p-5 rounded-xl border-2 border-blue-500
+}
+.content_title{
+    @apply font-bold text-xl
+}
+.content_description{
+    @apply pl-4 text-justify
+}
